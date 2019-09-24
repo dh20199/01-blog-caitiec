@@ -9,21 +9,33 @@ html {
 
 main {
     border: 2px black solid;
-    padding: 10px;                      
+    padding: 10px; 
+    max-width: 50rem;
+    border-radius: 10px;                     
 }
 
 header {
     text-align: center;
+    background-color: lavender;
+    padding-top: 5px;
 }
 
 article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flow-root;
 }
 
 article img {
+    max-width: 15rem;
+    float: left;
+    border-radius: 5px;
+    margin: right;
+
 }
 
 footer {
-    background-color: #dfebfb;
+    background-color:lavender;
     min-height: 5rem;
     /* please don't change these values; you will have 
        plenty of chance to play with flex in the next problem */
