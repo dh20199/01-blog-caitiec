@@ -41,7 +41,7 @@ section.sidebar {
     grid-row: 2;
     grid-area: side;
     display: grid; 
-    flex-direction: vertical;
+    flex-direction: column;
     justify-content: normal;         /*these last two are optional*/
     align-items: left;
 }
