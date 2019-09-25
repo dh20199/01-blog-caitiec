@@ -1,5 +1,13 @@
 article {
     background:  #0000;
     background-color: lavender;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+
 }
+
+
 
