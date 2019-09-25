@@ -31,6 +31,7 @@ aside {
     grid-column: 3;
     grid-row: 2;
     display: grid;
+    grid-area: row start;
 }
 
 
@@ -38,6 +39,7 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-column: 1;
     grid-row: 2;
+    grid-area: row start;
     display: grid; 
     flex-direction: vertical;
     justify-content: normal;         /*these last two are optional*/
@@ -63,7 +65,8 @@ article {
     background-color: rgba(30,30,30,0.4);
     grid-column: 2;
     grid-row: 2;
-    display: grid ;
+    display: grid;
+    grid-area: row start;
     grid-template-columns: repeat (5, 1fr);
     grid-template-rows: repeat (5, 1fr);
     grid-gap:                   /*the gap is optional*/    
