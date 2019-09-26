@@ -25,6 +25,15 @@ article {
     font-family: 'Times New Roman', Times, serif
 
 }
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+source {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 article img {
     max-width: 20rem;
